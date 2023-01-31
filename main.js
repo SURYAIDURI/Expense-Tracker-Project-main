@@ -12,6 +12,7 @@ addEventListener('DOMContentLoaded', () => {
         })
     });
 
+    
     const getData = async () => {
         try{
             const res = await axios.get(serverLink);
